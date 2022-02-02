@@ -1,0 +1,13 @@
+html {
+  text-align: center;
+  //text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
+  font-family: arial;
+}
+h1 {
+  text-decoration: underline;
+}
+.listitem {
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 4px rgba(0, 0, 0, 0.2);
+  width: 50%;
+}
