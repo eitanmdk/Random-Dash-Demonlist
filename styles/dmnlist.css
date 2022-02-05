@@ -1,13 +1,50 @@
 html {
   text-align: center;
-  //text-shadow: 1px 1px rgba(0, 0, 0, 0.7);
   font-family: arial;
+  
+  /*text-shadow: 1px 1px rgba(0, 0, 0, 0.7);*/
+  background-color: rgba(0, 0, 0, 0.3);
+  /*box-shadow: rgba(0, 0, 0, 0.2);*/
 }
 h1 {
   text-decoration: underline;
 }
+button {
+  border-radius: 10px;
+  /*
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.2);*/
+  font-family: arial;
+}
+table {
+  /*
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.2);*/
+  border-radius: 5px;
+  width: 100%;
+}
+tr {
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: arial;
+  text-align: center;
+}
 .listitem {
   background-color: rgba(0, 0, 0, 0.3);
   box-shadow: 3px 4px rgba(0, 0, 0, 0.2);
-  width: 50%;
+  width: 25%;
+}
+.leveltitle {
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 4px rgba(0, 0, 0, 0.2);
+  height: 100px;
+}
+.leveldesc {
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 4px rgba(0, 0, 0, 0.2);
+  width: 35%;
+}
+.victors {
+  background-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 3px 4px rgba(0, 0, 0, 0.2);
+  width: 40%
 }
